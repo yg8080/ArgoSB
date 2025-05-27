@@ -26,3 +26,6 @@ sudo -i
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh)
 ```
+```
+wget https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh bash install.sh
+```
