@@ -16,3 +16,13 @@ nix=y bash <(curl -Ls https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads
 ```
 nix=y bash <(curl -Ls https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh)
 ```
+一键无交互脚本
+
+Android Studio Cloud Name Create Show Apps Terminal
+
+```
+sudo -i
+```
+```
+bash <(wget -qO- https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh)
+```
