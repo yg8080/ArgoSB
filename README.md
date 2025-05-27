@@ -12,3 +12,7 @@ nix=y uuid=17cc1d34-afc1-4684-ba37-bbda49d6f230 vmpt=54321 agn=idx.112553.xyz ag
 ```
 nix=y bash <(curl -Ls https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh) del
 ```
+查看Argo的固定域名、固定隧道的token、临时域名、当前节点信息
+```
+nix=y bash <(curl -Ls https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh)
+```
