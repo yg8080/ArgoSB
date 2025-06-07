@@ -22,6 +22,7 @@ echo "显示节点信息：agsb或者脚本 list"
 echo "双栈VPS显示IPv4节点配置：ip=4 agsb或者脚本 cip"
 echo "双栈VPS显示IPv6节点配置：ip=6 agsb或者脚本 cip"
 echo "卸载脚本：agsb或者脚本 del"
+echo "安装脚本：uuid=17cc1d34-afc1-4684-ba37-bbda49d6f230 vmpt=54321 argo=y agn=idx.112553.xyz agk=eyJhIjoiNGRlMmEzNGE1Njg5ZmM4NmE2NGRkNWQyZjczN2MxNDkiLCJ0IjoiYTMwN2FjNDctNzY5OC00OGEzLWFlYWYtZDc4MTA5Y2M4NGM0IiwicyI6Ik16UTBZelkzWkdNdE5qUXlNUzAwTkRnMkxUZ3lPV1V0WldFNE5UWmtNbU16WXpGbCJ9 bash <(curl -Ls https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh)"
 }
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
 echo "甬哥Github项目  ：github.com/yonggekkk"
