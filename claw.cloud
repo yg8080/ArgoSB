@@ -4,3 +4,20 @@ metaligh/3x-ui
 端口号：2053
 /etc/x-ui/
 /etc/letsencrypt/
+--------------------------------
+mage Name:
+7techlife/seven
+Environment Variables:
+uuid=
+token=
+domain=
+------------------------------------
+docker run -d \
+--name seven \
+--restart unless-stopped \
+-e uuid=你的固定UUID \
+-e token=你的Cloudflare隧道Token \
+-e domain=你的隧道域名 \
+7techlife/seven && docker logs -f seven
+------------------------------------------------------
+uuid=6fd1274f-2382-4dc6-a5d1-59d8960d266a vmpt=54321 argo=y agn=cc.0818.pp.ua agk=eyJhIjoiYzgzYTEzN2ExYTM5ODRhZDc5YWM5NDViYTExYjIyNGIiLCJ0IjoiY2ZiYTEzODctMWQ5MC00ZGY1LTllYzQtMTVjNDE2ZTM5Njg5IiwicyI6Ik9EUXdOMkU1TldZdFl6Z3pNeTAwT0RVNExUazFaV0l0T1Rjd01UVmpaV0ZpTURGayJ9 bash <(curl -Ls https://raw.githubusercontent.com/yg8080/ArgoSB/refs/heads/main/argosb.sh) 
